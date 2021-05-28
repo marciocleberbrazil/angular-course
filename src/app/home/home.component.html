@@ -1,0 +1,10 @@
+<h1 id="title"></h1>
+<button (click)="changeTitle()">
+  Click Me!
+</button>
+
+{{23.23232323 | number }}
+
+<div *ngFor="let boat of boats | async">
+  <app-boat [boat]="boat"></app-boat>
+</div>

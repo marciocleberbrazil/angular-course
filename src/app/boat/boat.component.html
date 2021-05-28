@@ -1,0 +1,3 @@
+<h3 [ngClass]="{'green': boat.name === 'Starfire', 'red': boat.name === 'Oracle'}">{{boat.name}}</h3>
+<img [src]="boat.img" appMagnifier>
+<p>Built in {{boat.year | year}}</p>
