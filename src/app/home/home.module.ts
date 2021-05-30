@@ -5,6 +5,7 @@ import { BoatComponent } from '../boat/boat.component';
 import { MagnifierDirective } from '../magnifier.directive';
 import { YearPipe } from '../year.pipe';
 import { HomeComponent } from './home.component';
+import { TestComponent } from './test/test.component';
 
 const routes: Routes = [
   {
@@ -18,7 +19,7 @@ const routes: Routes = [
     HomeComponent, 
     BoatComponent,
     MagnifierDirective, 
-    YearPipe],
+    YearPipe, TestComponent],
   imports: [
     CommonModule,
     RouterModule.forChild(routes)
